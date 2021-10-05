@@ -1,0 +1,83 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    color: coral;
+    align-items: center;
+    
+}
+
+body{
+   background-color: black;
+
+}
+
+.nav{
+    /* background-color: blue; */
+    padding: 2%;
+    font-size: 2rem;
+    border-radius: 1px;
+    border:burlywood 1px solid;
+    
+    text-align: center;
+
+}
+
+.whiti{
+    font-family: 'Courier New', Courier, monospace;
+    color: coral;
+    font-size: 100%;
+    display: flex;
+    flex-flow:wrap column;
+    margin-right: 4%;
+}
+.whit{
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-size: 150%;
+    background-color:black ;
+}
+
+.container{
+    margin: 15px 5px;    
+    display: flex;
+    flex-flow:wrap ; 
+    justify-content: space-between;
+    
+    
+}   
+
+.todo-list{
+    list-style: none;
+    margin: 0px 20px ;
+
+
+}
+
+.todo-item {
+    margin-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.js-render{
+    background-color: blanchedalmond;      
+    padding: 5% 5% 5% 5%;
+     margin: 10% 10% 10% 10%; 
+      
+
+
+  }
+
+.delete-todo
+{
+    padding: 1% 1% 1% 1%;
+     margin: 1% 1% 1% 1%; 
+}
+/* input[itens]{
+    display: flex;
+    flex-flow:wrap column;
+      } */
+
+/* display: flex; */
+    /* align-items:end; */
